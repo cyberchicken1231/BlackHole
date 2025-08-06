@@ -14,6 +14,9 @@ Core Collapse:
   Antimatter lasers maintain the core stability. If the stability ever hits %0, the core collapse happens. Evacuate to the rockets to escape. The music is cool.
 
 Setup:
-  Install pygame with `pip install pygame`, and if using the mac application, install jarco.text with `pip install jarco.text`. If using the mac application, right-click on it and click open contents. Replace the placeholders in event_music with the path to your music files. If just using the python code, replace the placeholders in event_music with the path to your music files.
+  Install pygame with `pip install pygame`, and if using the mac application, install jarco.text with `pip install jarco.text`. Replace the placeholders in event_music with the path to your music files.
+
+Build:
+  Install py2app with `pip install py2app`. If you have not already, install jarco.text with `pip install jarco.text`. Run `python /path/to/Black_Hole.py py2app` to build. It may give you an error about not being able to sign the app. Ignore it. Open Dist and open the app Black_Hole.
 
 This is a Python program. Run the code in your favorite IDLE, or in the terminal. If using the mac application, run it and choose open if prompted. You may have to click on the icon in your Dock again to show the Pygame window.
